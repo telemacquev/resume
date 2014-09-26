@@ -11,14 +11,16 @@ div {
 }
 
 #contact {
-    width: 70%;
-    height: auto;
+    width: 40%;
+    height: 40px;
 }
 
 #intro {
-    width: 70%;
+    width: 80%;
     height: 70px;
     padding-top: 0px;
+    border-style: none;
+    border-top: 3px double gold;
 }
 
 
@@ -26,14 +28,14 @@ img {
     width:200px;
     height: 200px; 
     transform: rotate(-10deg);
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 5px gold;
  
 }
 
 #profile_picture {
 
     position: absolute;
-    right: 35px;
+    right: 55px;
     top: 15px; 
     z-index: -1;  
     
@@ -44,7 +46,7 @@ img {
 
 .left, .right { 
     display: inline-block;
-    margin: 20px 20px 20px 10px;
+    margin: 12px 20px 12px 10px;
     vertical-align:top;
 }
 
@@ -69,3 +71,11 @@ span {
     font-weight: bold;
     font-size:100%;
 }
+
+
+a:hover {
+     text-decoration:none;
+     background-color:gold;
+     color:#302013;
+     font-family: Cursive, Arial;
+}   
