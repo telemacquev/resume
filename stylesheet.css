@@ -1,0 +1,71 @@
+
+
+div {
+    align-items: flex-start;
+}
+
+
+#heading {
+    width:70%;
+    height: auto;
+}
+
+#contact {
+    width: 70%;
+    height: auto;
+}
+
+#intro {
+    width: 70%;
+    height: 70px;
+    padding-top: 0px;
+}
+
+
+img {
+    width:200px;
+    height: 200px; 
+    transform: rotate(-10deg);
+    box-shadow: 10px 10px 5px #888888;
+ 
+}
+
+#profile_picture {
+
+    position: absolute;
+    right: 35px;
+    top: 15px; 
+    z-index: -1;  
+    
+
+}
+
+
+
+.left, .right { 
+    display: inline-block;
+    margin: 20px 20px 20px 10px;
+    vertical-align:top;
+}
+
+.right { 
+    width:auto;
+
+  
+}
+
+.left{ 
+    width:100px;
+    height: 80px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    border-style: none;
+    border-right: thick double gold;
+    padding: 2px 4px 3px 4px;
+}
+
+span {
+    font-weight: bold;
+    font-size:100%;
+}
